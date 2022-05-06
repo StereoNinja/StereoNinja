@@ -10,7 +10,7 @@ If you ever soldered SMT components or looked for issues on one of those tiny PC
 
 Our idea is to combine best of both worlds. Having proper stereoscopic view on your work piece and using relatively cheap digital components for archiving that. If you already have a 3D capable monitor, you only need a pair of cameras with suitable optics and some electronics for combining the two video streams into a single one that your monitor understands. We are using a Raspberry Pi for that (what else? ;-)).
 
-![Stereo Ninja](images/title.png)
+![Stereo Ninja](images/title.jpg)
 
 # Details
 
@@ -30,18 +30,18 @@ This repository is work in progress. More info about what we did so far can be f
 
 ## Beta release (target: summer 2022)
 
-[x] Proof-of-Concept: StereoPi + Raspi3 Compute Module: real-time video stream to 3d monitor
-[x] Selecting suitable lenses; done (but will look at more later)
-[ ] Dual-camera mount; done, 3d printed version work in progress
-[x] Tests with CM4 (Raspi4 Compute Module)
-[ ] latency optimization: test different software setups, measure latency
-[ ] Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
-[ ] Final BOM (todo)
-[ ] Assembly guide / setup instructions (todo)
+- [x] Proof-of-Concept: StereoPi + Raspi3 Compute Module: real-time video stream to 3d monitor
+- [x] Selecting suitable lenses; done (but will look at more later)
+- [ ] Dual-camera mount; done, 3d printed version work in progress
+- [x] Tests with CM4 (Raspi4 Compute Module)
+- [ ] latency optimization: test different software setups, measure latency
+- [ ] Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
+- [ ] Final BOM (todo)
+- [ ] Assembly guide / setup instructions (todo)
 
 ## Future feature ideas
 
-* Integrate lighting into camera mount (we use an IKEA JANSJÖ for now, which works nicely)
+* Integrate lighting into camera mount (we use an IKEA JANSJÃ– for now, which works nicely)
 * Integrate polarization filter
 * software: digital zoom
 * software: enable streaming/recording
