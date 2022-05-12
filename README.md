@@ -31,12 +31,12 @@ This repository is work in progress. More info about what we did so far can be f
 ## Beta release (target: summer 2022)
 
 - [x] Proof-of-Concept: StereoPi + Raspi3 Compute Module: real-time video stream to 3d monitor
-- [x] Selecting suitable lenses; done (but will look at more later)
-- [ ] Dual-camera mount; done, 3d printed version work in progress
+- [ ] Select suitable lenses, document this
+- [ ] Dual-camera mount (3d printed): work in progress
 - [x] Tests with CM4 (Raspi4 Compute Module)
 - [ ] latency optimization: test different software setups, measure latency
 - [ ] Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
-- [ ] Final BOM (todo)
+- [ ] Finalize Bill of Material (todo)
 - [ ] Assembly guide / setup instructions (todo)
 
 ## Future feature ideas
