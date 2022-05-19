@@ -72,7 +72,8 @@ This repository is work in progress. More info about what we did so far can be f
 * Integrate polarization filter
 * software: enable highres photo snapshots
 * software: enable streaming/recording
-* use Raspi v2 cameras (need 3rd party cams with M12 lens mount)
+* try to use Raspi v2 compatible cameras (3rd party IMX219 cam with M12 lens mount), see [issue #1](https://github.com/StereoNinja/StereoNinja/issues/1)
+* try to use Raspi HQ compatible cameras (3rd party IMX477 cam with M12 lens mount), see [issue #2](https://github.com/StereoNinja/StereoNinja/issues/2)
 * smart zoom: zoom into region where your solder tip or test lead points to
 * enable video overlay (display PCB info like BOM directly on screen)
 * Kicad integration 
