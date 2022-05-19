@@ -69,10 +69,10 @@ This repository is work in progress. More info about what we did so far can be f
 ## Future feature ideas
 
 * Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
-* Integrate lighting into camera mount (we use an IKEA JANSJÖ for now, which works nicely)
 * Integrate polarization filter
-* software: digital zoom
+* software: enable highres photo snapshots
 * software: enable streaming/recording
+* use Raspi v2 cameras (need 3rd party cams with M12 lens mount)
 * smart zoom: zoom into region where your solder tip or test lead points to
 * enable video overlay (display PCB info like BOM directly on screen)
 * Kicad integration 
