@@ -30,17 +30,45 @@ This repository is work in progress. More info about what we did so far can be f
 
 ## Beta release (target: summer 2022)
 
+### Goals
+
+* Hardware: 
+  * Raspberry Pi CM4, Waveshare CM IO Board
+  * 2x Raspberry Pi v1 camera + custom lens
+  * integrate LED lighting
+  * connection of camera module with Pi with single cable 
+  * add 3 push buttons on camera module
+* Software
+  * Special version of raspivid
+  * Outputs side-by-side stereo mode video to be used with 3d monitor
+  * User can switch view (digital zoom on/off)
+* Documentation
+  * BOM
+  * Assembly guide
+
+### Todos
+
 - [x] Proof-of-Concept: StereoPi + Raspi3 Compute Module: real-time video stream to 3d monitor
-- [ ] Select suitable lenses, document this
-- [ ] Dual-camera mount (3d printed): work in progress
 - [x] Tests with CM4 (Raspi4 Compute Module)
+- [ ] Select suitable lenses, document this
+- [x] Camera module: Dual-camera mount and enclosure (3d printed)
+- [ ] Camera module: print + test
+- [x] Choose cable type for camera module to Pi connection
+- [ ] Camera board: circuit design (including microconroller)
+- [ ] Camera board: PCB layout
+- [ ] Camera board: assembly + testing
+- [ ] Camera module: design LED PCB
+- [ ] Camera module: LED PCB assembly and test
+- [ ] Firmware for camera module microcontroller (send key presses over UART)
+- [ ] Software: switching between mode 5 (full sensor) and mode 1 (digital zoom)
+- [ ] Software: Communicate with camera module, allow switching of digital zoom
 - [ ] latency optimization: test different software setups, measure latency
-- [ ] Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
 - [ ] Finalize Bill of Material (todo)
 - [ ] Assembly guide / setup instructions (todo)
 
 ## Future feature ideas
 
+* Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
 * Integrate lighting into camera mount (we use an IKEA JANSJÖ for now, which works nicely)
 * Integrate polarization filter
 * software: digital zoom
