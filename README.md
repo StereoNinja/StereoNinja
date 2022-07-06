@@ -78,3 +78,34 @@ This repository is work in progress. More info about what we did so far can be f
 * enable video overlay (display PCB info like BOM directly on screen)
 * Kicad integration 
 * AR mode (e.g. for part placement on PCBs, highlighting tracks, etc)
+
+# FAQ
+
+### I want to build one! Where is the BOM etc?
+
+Hang on for a bit longer. We are preparing the first release for summer 2021. We will have a BOM and all the design files you need by then.
+
+### Do I need a 3D monitor?
+
+Yes. At least for the first version. We are planning a side project that would allow using standard monitors by driving shutter glasses with our own control electronics. But no work has been done on this yet.
+
+### How can I contribute?
+
+At the moment the development is done by a team located at the FabLab München. We are currently not prepared for onboarding 
+people who cannot join our in-person meetings. But there are some topics where development could be done quite independently, 
+e.g. support for standard monitors (see previous FAQ) or software support for the new Raspberry Pi camera infrastructure.
+In any case, if you interested in joining efforts, get in touch!
+
+### How can I get in touch with you?
+
+Drop us an email: stereoninja@fablab-muenchen.de
+
+We are also on twitter: https://twitter.com/_stereoninja
+
+
+
+
+
+---
+
+Stereo Ninja is a project by FabLab München e.V. It is part of the [MakerTools project](https://wiki.fablab-muenchen.de/pages/viewpage.action?pageId=126815075), which is sponsored by the Federal Ministry of Education and Research.
