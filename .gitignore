@@ -1,0 +1,12 @@
+*.gcode
+*.3mf
+*.kicad_prl
+PCBs/*/fp-info-cache
+
+PCBs/ninjaHat/ninjaHat-backups/*
+PCBs/ninjaHat/gerber.zip
+PCBs/ninjaHat/gerber/*
+
+PCBs/ninjaCam/ninjaCam-backups/*
+PCBs/ninjaCam/gerber.zip
+PCBs/ninjaCam/gerber/*
