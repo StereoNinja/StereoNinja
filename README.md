@@ -28,7 +28,7 @@ This repository is work in progress. More info about what we did so far can be f
 
 # Roadmap
 
-## Beta release (target: summer 2022)
+## Beta release (work in progress)
 
 ### Goals
 
@@ -52,19 +52,20 @@ This repository is work in progress. More info about what we did so far can be f
 - [x] Tests with CM4 (Raspi4 Compute Module)
 - [ ] Select suitable lenses, document this
 - [x] Camera module: Dual-camera mount and enclosure (3d printed)
-- [ ] Camera module: print + test
+- [x] Camera module: print + test
 - [x] Choose cable type for camera module to Pi connection
-- [ ] Camera board: circuit design (including microconroller)
-- [ ] Camera board: PCB layout
-- [ ] Camera board: assembly + testing
+- [x] Camera board: circuit design 
+- [x] Camera board: PCB layout
+- [x] Camera board: assembly + testing
 - [ ] Camera module: design LED PCB
 - [ ] Camera module: LED PCB assembly and test
+- [ ] Camera board: add microcrontoller
 - [ ] Firmware for camera module microcontroller (send key presses over UART)
 - [ ] Software: switching between mode 5 (full sensor) and mode 1 (digital zoom)
 - [ ] Software: Communicate with camera module, allow switching of digital zoom
 - [ ] latency optimization: test different software setups, measure latency
-- [ ] Finalize Bill of Material (todo)
-- [ ] Assembly guide / setup instructions (todo)
+- [ ] Finalize Bill of Material
+- [ ] Assembly guide / setup instructions
 
 ## Future feature ideas
 
