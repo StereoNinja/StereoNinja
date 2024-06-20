@@ -30,14 +30,11 @@ This repository is work in progress. More info about what we did so far can be f
 
 ## Beta release (work in progress)
 
-### Goals
 
 * Hardware: 
   * Raspberry Pi CM4, Waveshare CM IO Board
   * 2x Raspberry Pi v1 camera + custom lens
-  * integrate LED lighting
   * connection of camera module with Pi with single cable 
-  * add 3 push buttons on camera module
 * Software
   * Special version of raspivid
   * Outputs side-by-side stereo mode video to be used with 3d monitor
@@ -46,29 +43,29 @@ This repository is work in progress. More info about what we did so far can be f
   * BOM
   * Assembly guide
 
-### Todos
+### Todos Beta Release
 
 - [x] Proof-of-Concept: StereoPi + Raspi3 Compute Module: real-time video stream to 3d monitor
 - [x] Tests with CM4 (Raspi4 Compute Module)
-- [ ] Select suitable lenses, document this
 - [x] Camera module: Dual-camera mount and enclosure (3d printed)
 - [x] Camera module: print + test
 - [x] Choose cable type for camera module to Pi connection
 - [x] Camera board: circuit design 
 - [x] Camera board: PCB layout
 - [x] Camera board: assembly + testing
-- [ ] Camera module: design LED PCB
-- [ ] Camera module: LED PCB assembly and test
-- [ ] Camera board: add microcrontoller
-- [ ] Firmware for camera module microcontroller (send key presses over UART)
-- [ ] Software: switching between mode 5 (full sensor) and mode 1 (digital zoom)
-- [ ] Software: Communicate with camera module, allow switching of digital zoom
-- [ ] latency optimization: test different software setups, measure latency
 - [ ] Finalize Bill of Material
 - [ ] Assembly guide / setup instructions
 
+### Todos Release
+
+- [ ] Software: switching between mode 5 (full sensor) and mode 1 (digital zoom)
+- [ ] latency optimization: test different software setups, measure latency
+- [ ] Select more suitable lenses
+
 ## Future feature ideas
 
+* integrate LED lighting
+* add buttons e.g. for zooing at camera
 * Evaluate possibility the use of standard (non 3D) monitors by generating the signals for the shutter glasses ourselves
 * Integrate polarization filter
 * software: enable highres photo snapshots
@@ -84,7 +81,7 @@ This repository is work in progress. More info about what we did so far can be f
 
 ### I want to build one! Where is the BOM etc?
 
-Hang on for a bit longer. We are preparing the first release for summer 2021. We will have a BOM and all the design files you need by then.
+Hang on for a bit longer. We are preparing the first release. We will have a BOM and all the design files you need by then.
 
 ### Do I need a 3D monitor?
 
